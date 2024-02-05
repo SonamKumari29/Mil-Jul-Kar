@@ -119,11 +119,13 @@ const Hero = styled.div`
 
   h1 {
     padding-bottom: 0;
+    padding-top: -20%;
     width: 55%;
     font-size: 56px;
     color: #355326;
     font-weight: 200;
     line-height: 70px;
+    up: 80px;
 
     @media (max-width: 768px) {
       text-align: center;
@@ -132,26 +134,31 @@ const Hero = styled.div`
       line-height: 2;
     }
   }
-  img {
-    //z-index:-1;
+ img {
     width: 700px;
-    height: 670px;
+    height: 500px;
     position: absolute;
-    bottom: -2px;
-    right: -150px;
-
+    up: 80px;
+    right: 50; /* Align to the rightmost side */
+    
+    /* Additional styles */
     @media (max-width: 768px) {
       top: 230px;
       width: initial;
       position: initial;
       height: initial;
+      right: auto; /* Reset to default */
+      left: 0; /* Align to the left on smaller screens */
     }
+}
+
   }
 `;
 
 const Form = styled.div`
   margin-top: 100px;
   width: 408px;
+  padding-left: 90px;
 
   @media (max-width: 768px) {
     margin-top: 20px;

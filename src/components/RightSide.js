@@ -107,7 +107,7 @@ const Avatar = styled.div`
 `;
 
 const Recommendation = styled.a`
-  color: #0a66c2;
+  color: #6d9775;
   display: flex;
   align-items: center;
   font-size: 14px;

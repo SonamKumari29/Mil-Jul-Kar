@@ -110,7 +110,7 @@ const Link = styled.div`
 `;
 
 const AddPhotoText = styled.div`
-  color: #0a66c2;
+  color: #6d9775;
   margin-top: 4px;
   font-size: 12px;
   line-height: 1.33;

@@ -220,7 +220,7 @@ const ShareBox = styled(CommonCard)`
           margin: o 4px 0 -2px;
         }
         span {
-          color: #70b5f9;
+          color: #6d9775;
         }
       }
     }
@@ -340,7 +340,7 @@ const SocialAction = styled.div`
     display: inline-flex;
     align-items: center;
     padding: 8px;
-    color: #0a66c2;
+    color: #6d9775;
     border: none;
     background-color: white;
 
