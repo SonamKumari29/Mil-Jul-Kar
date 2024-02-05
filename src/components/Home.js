@@ -13,7 +13,7 @@ const Home = (props) => {
         <h5>
           <a>Want to volunteer? -</a>
         </h5>
-        <p>Volunteer for a good cause and help the community.</p>
+        <p>Volunteer for a good cause and help the community to Grow.</p>
       </Section>
       <Layout>
         <LeftSide />
