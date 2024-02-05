@@ -179,7 +179,7 @@ const ShareBox = styled(CommonCard)`
   div {
     button {
       outline: none;
-      color: rgba(0, 0, 0, 0.6);
+      color: #355326;
       font-size: 14px;
       line-height: 1.5;
       min-height: 48px;

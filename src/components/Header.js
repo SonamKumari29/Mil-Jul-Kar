@@ -13,7 +13,7 @@ const Header = (props) => {
         </Logo>
         <Search>
           <div>
-            <input type="text" placeholder="Search" />
+            <input type="text" placeholder="Search for organizations" />
           </div>
           <SearchIcon>
             <img src="/images/search-icon.svg" alt="" />
@@ -30,13 +30,13 @@ const Header = (props) => {
             <NavList>
               <a>
                 <img src="/images/nav-network.svg" alt=" " />
-                <span>Network</span>
+                <span>Connections</span>
               </a>
             </NavList>
             <NavList>
               <a>
                 <img src="/images/nav-jobs.svg" alt=" " />
-                <span>Jobs</span>
+                <span>Volunteer</span>
               </a>
             </NavList>
             <NavList>
@@ -73,7 +73,7 @@ const Header = (props) => {
               <a>
                 <img src="/images/nav-work.svg" alt="" />
                 <span>
-                  Work
+                  My NGOs
                   <img src="/images/down-icon.svg" alt="" />
                 </span>
               </a>
