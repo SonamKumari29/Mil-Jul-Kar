@@ -136,10 +136,7 @@ const Hero = styled.div`
   }
  img {
     width: 700px;
-    height: 500px;
     position: absolute;
-    up: 80px;
-    right: 50; /* Align to the rightmost side */
     
     /* Additional styles */
     @media (max-width: 768px) {
